@@ -66,7 +66,7 @@ A sleek, Telegram-based time-tracker with a Web API backend—perfect for loggin
 ### Clone & Build
 
 ```bash
-git clone https://github.com/your-user/tyk.git
+git clone https://github.com/Ecarin/tyk.git
 cd tyk
 dotnet build
 ```
