@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using TimeTracker.Application.Interfaces;
+using Tyk.Application.Interfaces;
 
 namespace TimeTracker.Api.Controllers;
 

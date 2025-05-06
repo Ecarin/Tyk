@@ -2,20 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TimeTracker.Infrastructure.Data;
+using Tyk.Infrastructure.Data;
 
 #nullable disable
 
-namespace TimeTracker.Infrastructure.Migrations
+namespace Tyk.Infrastructure.Migrations
 {
     [DbContext(typeof(TimeTrackerContext))]
-    [Migration("20250505162526_Initial")]
-    partial class Initial
+    partial class TimeTrackerContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.4");
@@ -61,7 +58,7 @@ namespace TimeTracker.Infrastructure.Migrations
                     b.ToTable("TimeEntries");
                 });
 
-            modelBuilder.Entity("TimeTracker.Domain.Entities.ChatMessage", b =>
+            modelBuilder.Entity("Tyk.Domain.Entities.ChatMessage", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

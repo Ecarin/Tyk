@@ -1,12 +1,12 @@
 using Microsoft.EntityFrameworkCore;
-using TimeTracker.Application.Interfaces;
-using TimeTracker.Application.Services;
-using TimeTracker.Domain.Interfaces;
-using TimeTracker.Infrastructure.Data;
-using TimeTracker.Infrastructure.Repositories;
+using Tyk.Application.Interfaces;
+using Tyk.Application.Services;
+using Tyk.Infrastructure.Data;
+using Tyk.Infrastructure.Repositories;
 using DotNetEnv;
+using Tyk.Domain.Interfaces;
 
-DotNetEnv.Env.Load(); // Load environment variables from .env file
+Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 

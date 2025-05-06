@@ -11,10 +11,10 @@ using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
-using TimeTracker.Application.Interfaces;
-using TimeTracker.Domain.Entities;
+using Tyk.Domain.Entities;
+using Tyk.Application.Interfaces;
 
-namespace TimeTracker.Application.Services;
+namespace Tyk.Application.Services;
 
 public class TelegramBotService : IHostedService, IDisposable
 {

@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using TimeTracker.Domain.Entities;
-using TimeTracker.Domain.Interfaces;
+using Tyk.Domain.Entities;
+using Tyk.Domain.Interfaces;
 
-namespace TimeTracker.Infrastructure.Data;
+namespace Tyk.Infrastructure.Data;
 
 public class TimeTrackerContext : DbContext, ITimeTrackerContext
 {

@@ -1,4 +1,4 @@
-namespace TimeTracker.Domain.Entities;
+namespace Tyk.Domain.Entities;
 
 public class ChatMessage
 {

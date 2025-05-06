@@ -2,13 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{5C3614BF-3E7C-4E06-A899-E7409A7042B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Domain", "TimeTracker.Domain\TimeTracker.Domain.csproj", "{3EE2DB2E-C705-4EF5-8FF5-0DC7B1A0548B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyk.Domain", "Tyk.Domain\Tyk.Domain.csproj", "{3EE2DB2E-C705-4EF5-8FF5-0DC7B1A0548B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Application", "TimeTracker.Application\TimeTracker.Application.csproj", "{9A0E4C71-2B57-4013-A1D3-1BF09CE9B26E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyk.Application", "Tyk.Application\Tyk.Application.csproj", "{9A0E4C71-2B57-4013-A1D3-1BF09CE9B26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Infrastructure", "TimeTracker.Infrastructure\TimeTracker.Infrastructure.csproj", "{D208BD66-2B23-4B8F-8697-DC8258BA18A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyk.Infrastructure", "Tyk.Infrastructure\Tyk.Infrastructure.csproj", "{D208BD66-2B23-4B8F-8697-DC8258BA18A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Api", "TimeTracker.Api\TimeTracker.Api.csproj", "{081CE3C7-4948-4491-98BE-3768F002D00F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyk.Api", "Tyk.Api\Tyk.Api.csproj", "{081CE3C7-4948-4491-98BE-3768F002D00F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

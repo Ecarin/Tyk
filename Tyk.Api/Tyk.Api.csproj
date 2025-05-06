@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>TimeTracker.Api</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,8 +18,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TimeTracker.Application\TimeTracker.Application.csproj" />
-      <ProjectReference Include="..\TimeTracker.Infrastructure\TimeTracker.Infrastructure.csproj" />
+      <ProjectReference Include="..\Tyk.Application\Tyk.Application.csproj" />
+      <ProjectReference Include="..\Tyk.Infrastructure\Tyk.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>

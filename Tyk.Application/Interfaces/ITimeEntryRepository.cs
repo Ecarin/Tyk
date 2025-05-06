@@ -1,6 +1,6 @@
-using TimeTracker.Domain.Entities;
+using Tyk.Domain.Entities;
 
-namespace TimeTracker.Application.Interfaces;
+namespace Tyk.Application.Interfaces;
 
 public interface ITimeEntryRepository
 {

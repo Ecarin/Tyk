@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TimeTracker.Domain\TimeTracker.Domain.csproj" />
+      <ProjectReference Include="..\Tyk.Domain\Tyk.Domain.csproj" />
     </ItemGroup>
 
 </Project>

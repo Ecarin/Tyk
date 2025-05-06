@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using TimeTracker.Application.Interfaces;
-using TimeTracker.Domain.Entities;
-using TimeTracker.Domain.Interfaces;
+using Tyk.Domain.Entities;
+using Tyk.Domain.Interfaces;
+using Tyk.Application.Interfaces;
 
-namespace TimeTracker.Infrastructure.Repositories;
+namespace Tyk.Infrastructure.Repositories;
 
 public class TimeEntryRepository(ITimeTrackerContext _context) : ITimeEntryRepository
 {

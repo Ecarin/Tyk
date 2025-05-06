@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace TimeTracker.Infrastructure.Migrations
+namespace Tyk.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
