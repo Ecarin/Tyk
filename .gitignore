@@ -1,5 +1,10 @@
 bin/
 obj/
 /packages/
+.idea
 riderModule.iml
-/_ReSharper.Caches/
+/_ReSharper.Caches/!/Tyk.Api/TimeTracker.db
+!/Tyk.Api/Reports/
+Tyk.Api/Reports
+Tyk.Api/TimeTracker.db**
+**/TimeTracker.db**
