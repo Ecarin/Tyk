@@ -1,6 +1,11 @@
 ﻿services:
   tyk.api:
+    container_name: Tyk
     image: tyk.api
     build:
       context: .
       dockerfile: Tyk.Api/Dockerfile
+    ports:
+      - 6195:6195
+    env_file:
+      - Tyk.Api/.env
