@@ -1,0 +1,6 @@
+﻿services:
+  tyk.api:
+    image: tyk.api
+    build:
+      context: .
+      dockerfile: Tyk.Api/Dockerfile
