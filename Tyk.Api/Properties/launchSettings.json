@@ -1,4 +1,11 @@
 ﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.EntityFrameworkCore": "Warning"
+    }
+  },
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
     "http": {
