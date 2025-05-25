@@ -7,7 +7,6 @@ namespace TimeTracker.Api.Controllers;
 [Route("api/[controller]")]
 public class TimeEntriesController(ITimeEntryRepository repository) : ControllerBase
 {
-    
     [HttpGet("{userId}")]
     public async Task<ActionResult<IEnumerable<TimeEntry>>> GetByUser(
         long userId,

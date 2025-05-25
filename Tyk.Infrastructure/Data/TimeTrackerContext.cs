@@ -6,7 +6,9 @@ namespace Tyk.Infrastructure.Data;
 
 public class TimeTrackerContext : DbContext, ITimeTrackerContext
 {
-    public TimeTrackerContext(DbContextOptions<TimeTrackerContext> options) : base(options) { }
+    public TimeTrackerContext(DbContextOptions<TimeTrackerContext> options) : base(options)
+    {
+    }
 
     public DbSet<TimeEntry> TimeEntries { get; set; }
     public DbSet<ChatMessage> ChatMessages { get; set; }
@@ -15,13 +17,13 @@ public class TimeTrackerContext : DbContext, ITimeTrackerContext
     {
         modelBuilder.Entity<TimeEntry>()
             .HasIndex(e => new { e.UserId, e.Timestamp });
-    
+
         modelBuilder.Entity<TimeEntry>()
             .HasIndex(e => e.IsActive)
             .HasFilter("IsActive = 1");
-        
+
         modelBuilder.Entity<ChatMessage>()
-            .HasIndex(e => e.ChatId)
+            .HasIndex(e => new { e.ChatId, e.MessageType })
             .IsUnique();
     }
 }

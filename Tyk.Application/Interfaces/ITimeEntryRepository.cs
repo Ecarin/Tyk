@@ -10,4 +10,7 @@ public interface ITimeEntryRepository
     Task SaveChatMessageAsync(ChatMessage message);
     Task DeleteChatMessageAsync(long chatId);
     Task<List<long>> GetTrackedChatsAsync();
+    Task<ChatMessage?> GetWelcomeMessageAsync(long chatId);
+    Task SaveWelcomeMessageAsync(ChatMessage msg);
+    Task<DateTime?> GetOldestEntryDateAsync();
 }

@@ -1,10 +1,10 @@
+using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
 using Tyk.Application.Interfaces;
 using Tyk.Application.Services;
+using Tyk.Domain.Interfaces;
 using Tyk.Infrastructure.Data;
 using Tyk.Infrastructure.Repositories;
-using DotNetEnv;
-using Tyk.Domain.Interfaces;
 
 Env.Load();
 

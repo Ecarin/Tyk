@@ -8,13 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="ClosedXML" Version="0.104.2" />
-      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.4" />
-      <PackageReference Include="Telegram.Bot" Version="22.5.1" />
+        <PackageReference Include="ClosedXML" Version="0.104.2"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.4"/>
+        <PackageReference Include="Telegram.Bot" Version="22.5.1"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Tyk.Domain\Tyk.Domain.csproj" />
+        <ProjectReference Include="..\Tyk.Domain\Tyk.Domain.csproj"/>
     </ItemGroup>
 
 </Project>
